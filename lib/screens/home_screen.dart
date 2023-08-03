@@ -281,7 +281,7 @@ class HomePageState extends State<HomePage> {
   }
 
   getScrollItem(int index) {
-    print(changables.changableCount.value);
+    // print(changables.changableCount.value);
     switch (index) {
       case 0:
         return Container(

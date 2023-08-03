@@ -15,7 +15,7 @@ class AboutScreen extends StatelessWidget {
     return ValueListenableBuilder(
         valueListenable: changables.changableCount,
         builder: (context, value, _) {
-          print("object");
+          // print("object");
           val = value.toString();
           return Padding(
             padding: EdgeInsets.only(
@@ -152,7 +152,7 @@ class AboutScreen extends StatelessWidget {
 
   skillbar(double percentage, String titleText) {
     // print(changables.changableCount.value);
-    print("jkhkjh");
+    // print("jkhkjh");
     return Padding(
       padding: EdgeInsets.only(top: 7.sp),
       child: Column(
